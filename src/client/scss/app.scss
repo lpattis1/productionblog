@@ -1,0 +1,343 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  background: #f4f4f4 !important;
+}
+
+.blog-body {
+  background: white !important;
+  border: 0.1rem solid black;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  margin-bottom: 2rem !important;
+}
+
+/* App */
+
+.blogger {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.blog-title {
+  color: white;
+  text-align: center;
+}
+
+.logo-icon {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.sub-header {
+  padding: 1rem 1.5rem;
+  background: #e6e6e6;
+  border: 0.1rem solid black;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.active {
+  text-decoration: none;
+  color: #566cd6;
+  margin-right: 1.5rem;
+  font-weight: 500;
+  border-bottom: 0.2rem solid white;
+}
+
+.not-active {
+  text-decoration: none;
+  color: #667ef1;
+  margin-right: 1.5rem;
+  font-weight: 500;
+}
+
+.post-title {
+  padding: 0.5rem;
+}
+
+#basic-addon1 {
+  background-color: #667ef1 !important;
+  color: white;
+  border: 0.1rem solid black;
+  border-right: none !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.title-input-box {
+  border: 0.1rem solid black !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.title-icon-img {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.name-input-box {
+  border: 0.1rem solid black !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.name-icon-img {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tags-select {
+  border: 0.1rem solid black !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.tags-icon-img {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.content-input-area .input-group-text {
+  background-color: #667ef1 !important;
+  color: white;
+  border: 0.1rem solid black;
+  border-right: none !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  padding: 1.2rem;
+}
+
+.content-icon-img {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.content-input-box {
+  border: 0.1rem solid black !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.submit-btn-area {
+  margin-top: 1rem;
+}
+
+.blog-btn {
+  background: #667ef1 !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1.4rem !important;
+
+  width: 100%;
+  text-align: center !important;
+  padding: 1.1rem 1.5rem !important;
+}
+
+.blog-btn:hover {
+  color: white;
+  background: #566cd6;
+  transition: 0.3s ease-in-out all;
+  padding: 1.5rem 2rem;
+}
+
+/* Header */
+
+.heading {
+  background: #667ef1;
+  padding: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border: 0.1rem solid black;
+}
+
+// Post
+
+#blog-post {
+  border: 0.1rem solid black !important;
+  background: #f4f4f4;
+}
+
+.posted-on {
+  color: #566cd6;
+  font-weight: 600;
+}
+
+.blog-post-author {
+  color: #667ef1 !important;
+}
+
+.blog-post-img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.post-btn {
+  background: #667ef1 !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+}
+
+.back-btn {
+  background: #667ef1 !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.back-btn:hover {
+  border: #667ef1 0.1rem solid !important;
+  border-radius: 0.2rem;
+  color: black !important;
+  background: none !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.edit-btn {
+  border: #667ef1 0.1rem solid !important;
+  border-radius: 0.2rem;
+  color: black !important;
+  background: none !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.edit-btn:hover {
+  background: #667ef1 !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.details-user {
+  color: #566cd6;
+  font-weight: 600;
+}
+
+.blog-post-content {
+  line-height: 1.7;
+}
+
+#details-card {
+  background-color: #f4f4f4 !important;
+}
+
+.ruler {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.revise-btn {
+  background: #667ef1 !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.revise-btn:hover {
+  border: #667ef1 0.1rem solid !important;
+  border-radius: 0.2rem;
+  color: black !important;
+  background: none !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.delete-btn {
+  background: black !important;
+  border-radius: 0.2rem;
+  color: white !important;
+
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.delete-btn:hover {
+  border: black 0.1rem solid !important;
+  border-radius: 0.2rem;
+  color: #667ef1 !important;
+  background: none !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  padding: 1rem 1.5rem !important;
+  margin-right: 1rem;
+}
+
+.return-link {
+  color: #667ef1 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.return-link:hover {
+  color: #566cd6 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.tag-badge-solid {
+  background: #667ef1;
+}
+
+.tag-badge-outline {
+  border: #667ef1 0.1rem solid;
+  background: none;
+  color: black !important;
+}
+
+@media only screen and (max-width: 455px) {
+  .edit-btn,
+  .back-btn {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .blog-post-content {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .edit-btn,
+  .back-btn {
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
