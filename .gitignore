@@ -1,7 +1,2 @@
-# dependencies
-node_modules/
-
-# production bundles
-dist/
-public/js/app.js
-.env
+node_modules
+src/server/config/development.ts
