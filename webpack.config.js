@@ -1,15 +1,13 @@
 const path = require("path");
-var nodeExternals = require("webpack-node-externals");
-
-var mode = process.env.NODE_ENV || "development";
+const nodeExternals = require("webpack-node-externals");
 
 const serverConfig = {
-  mode,
+  mode: process.env.NODE_ENV || "development",
   entry: "./src/server/server.ts",
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts?$/,
         loader: "ts-loader",
         exclude: /node_modules/,
         options: {
@@ -19,7 +17,7 @@ const serverConfig = {
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: [".ts", ".js"],
   },
   output: {
     filename: "server.js",
@@ -33,7 +31,7 @@ const serverConfig = {
 };
 
 const clientConfig = {
-  mode,
+  mode: process.env.NODE_ENV || "development",
   entry: "./src/client/index.tsx",
   devtool: "inline-source-map",
   module: {
